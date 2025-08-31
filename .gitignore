@@ -90,3 +90,4 @@ target/
 # Virtual environments
 venv/
 /run_information.json
+/delivery_time_pred_model.pkl

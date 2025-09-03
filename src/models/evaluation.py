@@ -165,9 +165,10 @@ if __name__ == "__main__":
         model_signature = mlflow.models.infer_signature(model_input=X_train.sample(20,random_state=42),
                                     model_output=model.predict(X_train.sample(20,random_state=42)))
         
-        # log the final model (updated part 👇)
+         #  log the model properly
         joblib.dump(model, "delivery_time_pred_model.pkl")
         mlflow.log_artifact("delivery_time_pred_model.pkl")
+
 
         # log stacking regressor
         mlflow.log_artifact(root_path / "models" / "stacking_regressor.joblib")
@@ -182,6 +183,7 @@ if __name__ == "__main__":
         artifact_uri = mlflow.get_artifact_uri()
         
         logger.info("Mlflow logging complete and model logged")
+    
         
     # get the run id 
     run_id = run.info.run_id

@@ -91,3 +91,6 @@ target/
 venv/
 /run_information.json
 /delivery_time_pred_model.pkl
+
+# FastAPI app (local only, repo me nahi)
+app.py

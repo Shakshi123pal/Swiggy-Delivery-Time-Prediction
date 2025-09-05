@@ -1,5 +1,5 @@
 outs:
-- md5: 7a3d138a2d16f402f549eee73572a0b4
+- md5: 9ef7fbf3bd3909444e3ddb87faed930b
   size: 157662856
   hash: md5
   path: delivery_time_pred_model.pkl

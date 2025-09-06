@@ -94,3 +94,6 @@ venv/
 # FastAPI app (local only, repo me nahi)
 app.py
 
+# Delete mirror repo folder safely
+Swiggy-Delivery-Time-Prediction.git/
+

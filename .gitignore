@@ -89,7 +89,7 @@ target/
 
 # Virtual environments
 venv/
-/delivery_time_model.pkl
+/models/delivery_time_model.pkl
 
 # FastAPI app (local only, repo me nahi)
 app.py

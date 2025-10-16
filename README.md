@@ -1,6 +1,6 @@
 🚀 Swiggy Delivery Time Prediction
 
-This project predicts food delivery time (in minutes) for Swiggy orders using machine learning and MLOps best practices.
+This project predicts **food delivery time (in minutes)** for Swiggy orders using **Machine Learning** and **MLOps best practices** — including DVC pipelines, MLflow tracking, and FastAPI deployment.
 
 📂 Project Structure
 

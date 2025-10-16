@@ -52,6 +52,10 @@ dvc repro
 
 # Start API
 uvicorn app:app --reload
+<img width="906" height="869" alt="image" src="https://github.com/user-attachments/assets/fe268c9d-0180-45d1-a288-35d31c6879b2" />
+<img width="899" height="776" alt="image" src="https://github.com/user-attachments/assets/c8abd63a-a757-4d29-b360-6c2e373f2611" />
+
+
 
 🔮 Future Work
 

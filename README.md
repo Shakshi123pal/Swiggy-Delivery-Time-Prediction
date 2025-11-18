@@ -34,7 +34,7 @@ Data Cleaning → remove invalid values (age < 18, ratings > 5, etc.)
 
 Preprocessing → encoding categorical + scaling numerical features
 
-Model Training → train ML model (Random Forest / XGBoost)
+Model Training → train ML model (Random Forest / LGBM)
 
 Evaluation → log metrics with MLflow
 

@@ -57,12 +57,4 @@ uvicorn app:app --reload
 
 
 
-🔮 Future Work
 
-Deploying the API on cloud platforms (AWS / Render / Streamlit Cloud)
-
-Building a real-time monitoring system for model performance
-
-Experimenting with deep learning models for better accuracy
-
-Containerizing with Docker + CI/CD pipelines for production-level deployment
